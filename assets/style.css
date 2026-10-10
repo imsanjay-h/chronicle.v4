@@ -13,15 +13,15 @@
 --muted: #95836D;
 
 /* WARM ACCENTS */
---amber: #B58A50;
---gold: #D6B779;
---ember: #96563D;
+--amber: #C98B5E;
+--gold: #E0B87C;
+--ember: #A0522D;
 
-/* WARM HIGHLIGHTS — replaces the cold purple/blue feel */
---frost: #C6A66B;
---ice: #D8BC88;
---steel: #92764C;
-
+/* WARM HIGHLIGHTS — rich copper, no purple cast */
+--frost: #D4936A;
+--ice: #E8B88A;
+--steel: #8B6345;
+   
 /* LINES */
 --line: #382B20;
 --line-soft: #2A211A;
@@ -311,27 +311,19 @@ nav a.navlink {
   padding: 0.3rem 0;
 }
 
-nav a.navlink::after {
-  content: '';
-  position: absolute;
-  bottom: -2px; left: 0;
-  width: 0;
-  height: 1px;
-  background: linear-gradient(to right, var(--amber), var(--frost));
-  transition: width 0.4s var(--ease);
+nav a.navlink {
+  color: var(--muted);
+  transition: color 0.3s;
+  position: relative;
+  padding: 0.3rem 0;
 }
 
 nav a.navlink:hover {
   color: var(--cream);
 }
 
-nav a.navlink:hover::after { width: 100%; }
-
-nav a.navlink.active { color: var(--gold); }
-
-nav a.navlink.active::after {
-  width: 100%;
-  background: var(--amber);
+nav a.navlink.active {
+  color: var(--gold);
 }
 
 /* Nav tools */
@@ -522,7 +514,7 @@ main {
   display: flex;
   gap: 4rem;
   white-space: nowrap;
-  animation: marqueeScroll 40s linear infinite;
+  animation: marqueeScroll 18s linear infinite;
   font-family: var(--mono);
   font-size: 0.72rem;
   letter-spacing: 0.2em;
