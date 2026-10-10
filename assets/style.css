@@ -1595,3 +1595,15 @@ button, a, .poster, .connect-card { -webkit-tap-highlight-color: transparent; }
   .archive-tools { align-items: stretch; flex-direction: column; gap: .85rem; padding: 1rem; }
   .archive-count { align-self: flex-start; }
 }
+
+
+/* LITERARY ATELIER — WARM HIGHLIGHTS */
+nav .brand span,
+nav .brand:hover span,
+h1 em,
+h2 em,
+h3 em,
+p em,
+em {
+  color: #D6B779 !important;
+}
