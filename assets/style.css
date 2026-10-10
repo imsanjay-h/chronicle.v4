@@ -4,36 +4,36 @@
    ═══════════════════════════════════════════════════════════ */
 
 :root {
-  /* WARM BASE */
-  --ink: #171310;
-  --charcoal: #211b16;
-  --charcoal-2: #292119;
-  --cream: #f1e7d5;
-  --paper: #c9b89d;
-  --muted: #9a8974;
+/* WARM BASE */
+--ink: #100D0B;
+--charcoal: #191410;
+--charcoal-2: #211A15;
+--cream: #F0E5D2;
+--paper: #C5B49B;
+--muted: #95836D;
 
-  /* WARM ACCENTS */
-  --amber: #c9945c;
-  --gold: #e6c28c;
-  --ember: #80513b;
+/* WARM ACCENTS */
+--amber: #B58A50;
+--gold: #D6B779;
+--ember: #96563D;
 
-  /* COLD ACCENTS (hover) */
-  --frost: #d8b98a;
-  --ice: #c9a779;
-  --steel: #75614b;
+/* WARM HIGHLIGHTS — replaces the cold purple/blue feel */
+--frost: #C6A66B;
+--ice: #D8BC88;
+--steel: #92764C;
 
-  /* LINES */
-  --line: #3b3025;
-  --line-soft: #30271f;
+/* LINES */
+--line: #382B20;
+--line-soft: #2A211A;
 
-  /* TYPO */
-  --serif: 'Playfair Display', Georgia, serif;
-  --sans: 'Inter', -apple-system, sans-serif;
-  --mono: 'JetBrains Mono', 'Courier New', monospace;
+/* TYPO */
+--serif: 'Playfair Display', Georgia, serif;
+--sans: 'Inter', -apple-system, sans-serif;
+--mono: 'JetBrains Mono', 'Courier New', monospace;
 
-  /* MOTION */
-  --ease: cubic-bezier(0.22, 1, 0.36, 1);
-  --ease-slow: cubic-bezier(0.65, 0, 0.35, 1);
+/* MOTION */
+--ease: cubic-bezier(0.22, 1, 0.36, 1);
+--ease-slow: cubic-bezier(0.65, 0, 0.35, 1);
 }
 
 * { margin: 0; padding: 0; box-sizing: border-box; }
